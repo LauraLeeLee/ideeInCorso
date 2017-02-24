@@ -1,0 +1,91 @@
+<div class="col-lg-3 col-sm-4 col-xs-6">
+
+      <img class="img-responsive thumbnail" src= "images/1.jpg" class="small">
+      <img src= "images/1.jpg" class="left ">
+
+</div>
+ <div class="col-lg-3 col-sm-4 col-xs-6">
+
+      <img class="img-responsive thumbnail" src= "images/2.jpg" class="small">
+      <img src= "images/2.jpg" class="left">
+
+</div>
+<div class="col-lg-3 col-sm-4 col-xs-6">
+
+         <img class="img-responsive thumbnail" src= "images/3.jpg" class="small">
+         <img src= "images/3.jpg" class="right">
+
+</div>
+<div class="col-lg-3 col-sm-4 col-xs-6">
+
+      <img class="img-responsive thumbnail" src= "images/4.jpg" class="small">
+      <img src= "images/4.jpg" class="right">
+
+</div>
+<div class="col-lg-3 col-sm-4 col-xs-6">
+
+         <img class="img-responsive thumbnail"src= "images/5.jpg" class="small">
+         <img src= "images/5.jpg" class="left">
+
+</div>
+<div class="col-lg-3 col-sm-4 col-xs-6">
+
+
+         <img class="img-responsive thumbnail " src= "images/6.jpg" class="small">
+         <img src= "images/6.jpg" class="left">
+
+</div>
+<div class="col-lg-3 col-sm-4 col-xs-6">
+ <img class="img-responsive thumbnail" src= "images/8.jpg" class="small">
+ <img src= "images/8.jpg" class="right">
+</div>
+<div class="col-lg-3 col-sm-4 col-xs-6">
+      <img class="img-responsive thumbnail" src= "images/owl.jpg" class="small">
+      <img src= "images/owl.jpg" class="right">
+</div>
+<div class="col-lg-3 col-sm-4 col-xs-6">
+         <img class="img-responsive thumbnail" src= "images/14.jpg" class="small">
+         <img src= "images/14.jpg" class="Lbottom">
+</div>
+<div class="col-lg-3 col-sm-4 col-xs-6">
+   <img class="img-responsive thumbnail" src= "images/11.jpg" class="small">
+         <img src= "images/11.jpg" class="Lbottom">
+</div>
+<div class="col-lg-3 col-sm-4 col-xs-6">
+        <img class="img-responsive thumbnail" src= "images/12.jpg" class="small">
+         <img src= "images/12.jpg" class="Rbottom">
+</div>
+<div class="col-lg-3 col-sm-4 col-xs-6">
+  <img class="img-responsive thumbnail" src= "images/13.jpg" class="small">
+  <img src= "images/13.jpg" class="Rbottom">
+</div>
+
+
+/*hidden thumbnails in gallery*/
+ img.left, img.right, img.Lbottom, img.Rbottom
+ {
+  position: absolute;
+  z-index: 10;
+  visibility: hidden;
+  border: 8px double white;
+}
+
+.thumbnail:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:500px;
+    height:auto;
+    display:block;
+    /*z-index:999;*/
+    visibility: visible;
+    width: 500px;
+}
+
+
+
+/*hover on any table cell for the vertical images
+  table.gallery td:hover img.vertical {
+  visibility: visibile;
+  width: 350px;
+}*/

@@ -1,0 +1,33 @@
+#ledonne {
+  display: block;
+  margin: 50px auto 0;
+  width: 500px;
+  padding: 20px;
+}
+
+iframe {
+  margin: 0 auto;
+  display: block;
+  padding-bottom: 15px;
+}
+
+
+.descriptbox {
+  display: block;
+  margin: 40px auto 10px;
+  font-size: 22px;
+  width: 55vw;
+  text-align: justify;
+}
+
+.descriptbox p:first-letter {
+  font: 60px cursive;
+  color: pink;
+  line-height: 0;
+}
+
+#telefono {
+  font-size: 30px;
+  text-decoration: none;
+  color: pink;
+}

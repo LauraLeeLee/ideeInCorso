@@ -1,0 +1,132 @@
+body {
+      background: url(../images/lace2.jpg) center no-repeat fixed #ffe6ff;
+      background-size: cover;
+      text-align: center;
+    }
+
+img {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.container {
+  width: 90vw;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  background: url(../images/6d9efd89111c0ccdf107f21003d025b9.jpg) center no-repeat fixed #ff66d9;
+  background-size: cover;
+  text-align: center;
+  /*position: relative;*/
+}
+
+header {
+  background-color: #cc0066;
+  width: 90vw;
+}
+
+h1 {
+  /*width: 100%;*/
+  font-family: "Papyrus", sans-serif;
+  font-size: 5em;
+  font-style: italic;
+  color: white;
+  margin-top: 0.6em;
+  /*border: 5px double white;*/
+  /*padding: 25px 3px 0;*/
+  /*box-shadow: 20px 15px 20px #4d4d4d;*/
+}
+
+.daisy {
+  /*display: block;*/
+  width: 150px;
+  margin: 0;
+  /*position: absolute;*/
+}
+
+#leftdaisy {
+  float: left;
+}
+
+#rightdaisy {
+  float: right;
+}
+
+nav a {
+  display: block;
+  padding: 10px 0;
+  background-color: #990099;
+  color: white;
+  text-decoration: none;
+  outline: none;
+  font-family: "Avant Garde", Tahoma, sans-serif;
+  font-size: 28px;
+  float: left;
+  border-right: solid 1px white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  width: 33.333%;
+  text-align: center;
+  box-sizing: border-box;
+  /* Box sizing for older browsers */
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-shadow: 0 35px 30px -20px white inset;
+}
+
+nav a:link, nav a:visited {
+  background-color: #990099;
+  color: white;
+}
+
+/* Styling for hover, tap, and current page */
+nav a:hover, nav a:active, nav a.currentpage {
+  background-color: #ff80ff;
+  color: #990099;
+}
+
+.descriptbox {
+  font-family: "Avant Garde", Tahoma, sans-serif;
+  font-size: 2em;
+  color: white;
+  width: 70vw;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 30px;
+}
+
+
+/*media queries*/
+@media only screen and (max-width: 990px) {
+  img.daisy {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 615px) and (max-width: 710px) {
+  nav a {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (min-width: 470px) and (max-width: 614px) {
+  nav a {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 469px) {
+  nav a {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 495px) {
+  h1 {
+    font-size: 4em;
+  }
+}

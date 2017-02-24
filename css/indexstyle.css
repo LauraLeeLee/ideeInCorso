@@ -1,0 +1,12 @@
+.description {
+  display: block;
+  margin: 85px auto 0;
+  width: 75vw;
+  text-align: justify;
+}
+
+#description:first-letter {
+  font: 2em Avant Garde, Tahoma, sans-serif;
+  color: pink;
+  text-shadow: 2px 2px #ccc;
+}

@@ -1,0 +1,52 @@
+/*sets the style of the table as a whole*/
+/*table.zoom {
+width: 600px;
+height: 600px;
+margin: 100px auto;
+}*/
+/*applies to every table cell, simply making each one about
+one-third the width of the table*/
+/*table.zoom td {
+/*width: 33%;*/
+/*width: 200px;
+height: 200px;
+padding: 3px;
+margin: 5px;
+border: 2px solid white;
+}*/
+
+/*style thumbnails within table*/
+table.zoom img {
+    width: 150px;
+    height: 150px;
+    padding: 3px;
+    margin: 5px;
+    border: 2px solid white;
+}
+/*center the table*/
+table.zoom {
+  margin: 80px auto 0;
+}
+
+/* Enlarge and spin image on hover */
+table.zoom img.spinround:hover {
+transform: scale(2.5) rotate(360deg);
+transition: all ease-out 2s;
+}
+/* Enlarge and spin vertically image on hover */
+table.zoom img.spinside:hover {
+transform: scale(2.5) rotatey(720deg);
+transition: all ease-out 2s;
+}
+/* Enlarge and spin horizontally image on hover */
+table.zoom img.spintop:hover {
+transform: scale(2.5) rotatex(720deg);
+transition: all ease-out 2s;
+}
+/* Enlarge and spin all three ways above image on hover */
+table.zoom img.spincrazy:hover {
+transform: scale(2.5) rotate(720deg) rotatex(360deg) rotatey(360deg);
+transition: all ease-out 1s;
+}
+</style>
+</head>

@@ -1,0 +1,117 @@
+h1 {
+  margin: 0;
+}
+/*hidden thumbnails in gallery
+ img.left, img.right, img.Lbottom, img.Rbottom
+ {
+  position: absolute;
+  z-index: 10;
+  visibility: hidden;
+  border: 8px double white;
+}  /*
+
+/*hover on any table cell
+ a.img:hover img.left,
+ a img:hover img.Lbottom ,
+ a img:hover img.right,
+ a img:hover img.Rbottom {
+  visibility: visible;
+  width: 500px;
+}*/
+
+
+/*.thumbnail:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:500px;
+    height:auto;
+    display:block;
+  z-index:999;
+    visibility: visible;
+    width: 500px;
+}*/
+
+/*hover on any table cell for the vertical images
+  table.gallery td:hover img.vertical {
+  visibility: visibile;
+  width: 350px;
+}*/
+
+/*style thumbnails within table*/
+table.gallery img.small {
+    /*width: 150px;*/
+    /*height: 150px;*/
+    width: 100%;
+    padding: 3px;
+    margin: 5px;
+    border: 2px solid white;
+}
+/*center the table*/
+table.gallery {
+  margin: 80px auto 0;
+}
+/*style for each table cell*/
+table.gallery td {
+  position: relative;
+  padding: 0 2px;
+}
+
+table.gallery img.left, img.right, img.Lbottom, img.Rbottom {
+  position: absolute;
+  z-index: 10;
+  visibility: hidden;
+  border: 8px double white;
+}
+
+larger images in left 2 columns
+table.gallery img.left {
+  top: 50%;
+  left: 50%;
+}
+
+larger images in right 2 columns
+table.gallery img.right {
+  top: 50%;
+  right: 50%;
+}
+
+table.gallery img.Lbottom {
+  bottom: 50%;
+  left: 50%;
+}
+
+table.gallery img.Rbottom {
+  bottom: 10%;
+  right: 10%;
+}
+
+/*hover on any table cell*/
+table.gallery td:hover img.left,
+table.gallery td:hover img.Lbottom ,
+table.gallery td:hover img.right,
+table.gallery td:hover img.Rbottom {
+  visibility: visible;
+  width: 500px;
+}
+
+
+
+
+@media screen and (min-width: 576px) and (max-width: 713px){
+  h1 {
+    font-size: 4em;
+  }
+}
+
+@media screen and (min-width: 441px) and (max-width: 575px){
+  h1 {
+    font-size: 3em;
+  }
+}
+
+@media screen and (max-width: 440px){
+  h1 {
+    font-size: 2em;
+  }
+}
