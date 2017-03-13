@@ -11,7 +11,7 @@ img {
 
 .container {
   width: 90vw;
-  margin: 0 auto;
+  margin: 50px, auto 0;
   padding-bottom: 20px;
   background: url(../images/6d9efd89111c0ccdf107f21003d025b9.jpg) center no-repeat fixed #ff66d9;
   background-size: cover;
@@ -88,7 +88,8 @@ nav a:hover, nav a:active, nav a.currentpage {
   font-family: "Avant Garde", Tahoma, sans-serif;
   font-size: 2em;
   color: white;
-  width: 70vw;
+  /*width: 70vw;*/
+  width: 55vw;
   margin: 0 auto;
   padding-bottom: 20px;
   padding-bottom: 50px;
@@ -105,6 +106,10 @@ p {
   img.daisy {
     display: none;
   }
+
+  p {
+    word-spacing: -3px;
+  }
 }
 
 @media only screen and (min-width: 615px) and (max-width: 710px) {
@@ -117,6 +122,7 @@ p {
   nav a {
     font-size: 18px;
   }
+
 }
 
 @media only screen and (max-width: 469px) {

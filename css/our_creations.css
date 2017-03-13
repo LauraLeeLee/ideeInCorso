@@ -1,5 +1,10 @@
 h1 {
-  margin: 0;
+  margin: 40px auto 20px;
+}
+
+.container {
+  margin: 50px auto 0;
+  text-align: center;
 }
 /*hidden thumbnails in gallery
  img.left, img.right, img.Lbottom, img.Rbottom
@@ -49,7 +54,8 @@ table.gallery img.small {
 }
 /*center the table*/
 table.gallery {
-  margin: 80px auto 0;
+  margin: 30px auto;
+
 }
 /*style for each table cell*/
 table.gallery td {
@@ -64,21 +70,21 @@ table.gallery img.left, img.right, img.Lbottom, img.Rbottom {
   border: 8px double white;
 }
 
-larger images in left 2 columns
+/*larger images in left 2 columns*/
 table.gallery img.left {
   top: 50%;
-  left: 50%;
+  left: 10%;
 }
 
-larger images in right 2 columns
+/*larger images in right 2 columns*/
 table.gallery img.right {
   top: 50%;
-  right: 50%;
+  right: 10%;
 }
 
 table.gallery img.Lbottom {
   bottom: 50%;
-  left: 50%;
+  left: 10%;
 }
 
 table.gallery img.Rbottom {
@@ -92,11 +98,8 @@ table.gallery td:hover img.Lbottom ,
 table.gallery td:hover img.right,
 table.gallery td:hover img.Rbottom {
   visibility: visible;
-  width: 500px;
+  width: 200%;
 }
-
-
-
 
 @media screen and (min-width: 576px) and (max-width: 713px){
   h1 {
@@ -110,8 +113,18 @@ table.gallery td:hover img.Rbottom {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .table-responsive {
+    border: none;
+  }
+}
+
 @media screen and (max-width: 440px){
   h1 {
     font-size: 2em;
   }
+}
+
+@media screen and (max-width: 715px) {
+
 }
