@@ -135,4 +135,12 @@ p {
   h1 {
     font-size: 4em;
   }
+
+  p {
+    font-size: 18px;
+  }
+
+  #telefono {
+    font-size: 20px;
+  }
 }
